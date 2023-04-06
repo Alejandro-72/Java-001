@@ -1,0 +1,14 @@
+vector[i] = (int)(Math.random() * 99999 + 1);
+
+
+
+Scanner leer = new Scanner(System.in);int cont = 0;
+        int num1 = leer.nextInt();int vector[] = new int [10];
+       /* vector[0]=1;vector[1]=6;vector[2]=26;vector[3]=25;vector[4]=206;vector[5]=365;vector[6]=1546;
+        vector[7]=15648;vector[8]=1659;vector[9]=15645;*/
+       for(int i = 0; i<num1;i++)  {
+       vector[i] = (int)(Math.random() * 9999 + 1);     
+                   while(vector[i]/10>=10){
+                       cont++;
+
+

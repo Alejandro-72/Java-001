@@ -1,0 +1,22 @@
+/*
+Ejercicio 8
+Escriba un programa que valide si una nota está entre 0 y 10, sino esta
+entre 0 y 10 la nota se pedirá de nuevo hasta que la nota sea correcta.
+ */
+package guia03ej08;
+
+import java.util.Scanner;
+
+
+public class Guia03Ej08 {
+
+  
+    public static void main(String[] args) {
+        Scanner nota = new Scanner(System.in);
+        
+                
+                
+                
+    }
+    
+}

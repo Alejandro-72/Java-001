@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+
+public class GUIA02EJERCICIO03 {
+
+    public static void main(String[] args) {
+        String frace;
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese una Frace");
+        frace = leer.nextLine();
+        System.out.println("La frace ingresada es en modo minusculas " + frace.toLowerCase());
+        System.out.println("La frace ingresada es en modo mayusculas " + frace.toUpperCase());
+    }
